@@ -62,12 +62,13 @@ body {
   }
 }
 .card1 {
-  margin: 230px auto;
+  margin: 230px auto 0 auto;
   width: 700px;
   height: 280px;
   background-color: white;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 0 5px 2px rgb(237, 235, 235);
 }
 .card1 .mastercraft {
   position: relative;
@@ -115,6 +116,233 @@ body {
 }
 .card1 .card1-btn .saved:hover {
   background-color: hsl(176, 72%, 28%);
+}
+
+.card2 {
+  margin: 25px auto;
+  width: 700px;
+  height: 220px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px 2px rgb(237, 235, 235);
+  padding: 50px 30px;
+}
+.card2 .statistics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+}
+.card2 .statistics .vertical-line {
+  background-color: rgb(221, 217, 217);
+  width: 1px;
+  height: 60px;
+}
+.card2 .statistics h3 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.card2 .statistics p {
+  color: hsl(0, 0%, 48%);
+}
+.card2 .line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card2 .line .white {
+  margin-top: 30px;
+  width: 600px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card2 .line .green {
+  width: 480px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: hsl(176, 50%, 47%);
+}
+
+.card3 {
+  margin: 25px auto;
+  width: 700px;
+  height: 1190px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 0 0 5px 2px rgb(237, 235, 235);
+  padding: 50px 30px;
+}
+.card3 h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.card3 .card3-description {
+  margin-top: 30px;
+  font-size: 15px;
+  color: hsl(0, 0%, 48%);
+}
+.card3 .about-bamboo {
+  margin-top: 40px;
+  width: 600px;
+  height: 260px;
+  border: 1px solid rgb(209, 208, 208);
+  border-radius: 10px;
+  padding: 35px 30px;
+}
+.card3 .about-bamboo .about-bamboo_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card3 .about-bamboo .about-bamboo_title p {
+  font-size: 13px;
+  color: hsl(176, 50%, 47%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card3 .about-bamboo .about-bamboo_title p:hover {
+  color: hsl(176, 72%, 28%);
+}
+.card3 .about-bamboo p {
+  margin-top: 10px;
+  color: hsl(0, 0%, 48%);
+}
+.card3 .about-bamboo .about-bamboo_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card3 .about-bamboo .about-bamboo_btn span {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.card3 .about-bamboo .about-bamboo_btn button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+.card3 .about-bamboo .about-bamboo_btn button:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+.card3 .about-black_edition {
+  margin-top: 40px;
+  width: 600px;
+  height: 240px;
+  border: 1px solid rgb(209, 208, 208);
+  border-radius: 10px;
+  padding: 35px 30px;
+}
+.card3 .about-black_edition .about-black_edition_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card3 .about-black_edition .about-black_edition_title p {
+  font-size: 13px;
+  color: hsl(176, 50%, 47%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card3 .about-black_edition .about-black_edition_title p:hover {
+  color: hsl(176, 72%, 28%);
+}
+.card3 .about-black_edition p {
+  margin-top: 10px;
+  color: hsl(0, 0%, 48%);
+}
+.card3 .about-black_edition .about-black_edition_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card3 .about-black_edition .about-black_edition_btn span {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.card3 .about-black_edition .about-black_edition_btn button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+.card3 .about-black_edition .about-black_edition_btn button:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+.card3 .about-mahogany {
+  margin-top: 40px;
+  width: 600px;
+  height: 260px;
+  border: 1px solid rgb(244, 243, 243);
+  border-radius: 10px;
+  padding: 35px 30px;
+}
+.card3 .about-mahogany .about-mahogany_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card3 .about-mahogany .about-mahogany_title h4 {
+  color: rgba(0, 0, 0, 0.396);
+}
+.card3 .about-mahogany .about-mahogany_title p {
+  font-size: 13px;
+  color: hsla(176, 50%, 47%, 0.537);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card3 .about-mahogany p {
+  margin-top: 10px;
+  color: rgba(128, 128, 128, 0.41);
+}
+.card3 .about-mahogany .about-mahogany_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card3 .about-mahogany .about-mahogany_btn span {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.396);
+}
+.card3 .about-mahogany .about-mahogany_btn p {
+  color: rgba(128, 128, 128, 0.41);
+}
+.card3 .about-mahogany .about-mahogany_btn button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-color: rgba(128, 128, 128, 0.41);
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

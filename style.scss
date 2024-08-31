@@ -85,12 +85,13 @@ body {
 
 
 .card1 {
-    margin: 230px auto;
+    margin: 230px auto 0 auto;
     width: 700px;
     height: 280px;
     background-color: white;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 0 5px 2px rgb(237, 235, 235);
 
     .mastercraft {
         position: relative;
@@ -142,9 +143,283 @@ body {
             background-color: color.$cyan;
         }
 
-
         .saved:hover {
             background-color: color.$dark-cyan;
+        }
+    }
+}
+
+
+
+
+// card2
+.card2 {
+    margin: 25px auto;
+    width: 700px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px 2px rgb(237, 235, 235);
+    padding: 50px 30px;
+
+    .statistics {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: start;
+
+        .vertical-line {
+            background-color: rgb(221, 217, 217);
+            width: 1px;
+            height: 60px;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 40px;
+        }
+
+        p {
+            color: color.$gray;
+        }
+    }
+
+    .line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .white {
+            margin-top: 30px;
+            width: 600px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+        }
+
+        .green {
+            width: 480px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: color.$cyan;
+        }
+    }
+
+}
+
+
+// card3
+.card3 {
+    margin: 25px auto;
+    width: 700px;
+    height: 1190px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: start;
+    box-shadow: 0 0 5px 2px rgb(237, 235, 235);
+    padding: 50px 30px;
+
+    h4 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .card3-description {
+        margin-top: 30px;
+        font-size: 15px;
+        color: color.$gray;
+    }
+
+    .about-bamboo {
+        margin-top: 40px;
+        width: 600px;
+        height: 260px;
+        border: 1px solid rgb(209, 208, 208);
+        border-radius: 10px;
+        padding: 35px 30px;
+
+        .about-bamboo_title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-size: 13px;
+                color: color.$cyan;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            p:hover {
+                color: color.$dark-cyan;
+            }
+        }
+
+        p {
+            margin-top: 10px;
+            color: color.$gray;
+        }
+
+        .about-bamboo_btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-size: 30px;
+                font-weight: 700;
+                color: black;
+            }
+
+            button {
+                cursor: pointer;
+                width: 150px;
+                height: 50px;
+                background-color: color.$cyan;
+                border-radius: 30px;
+                border: none;
+                transition: 0.3s;
+                color: white;
+                font-weight: 700;
+                font-size: 15px;
+            }
+
+            button:hover {
+                background-color: color.$dark-cyan;
+            }
+        }
+    }
+
+
+
+
+    .about-black_edition {
+        margin-top: 40px;
+        width: 600px;
+        height: 240px;
+        border: 1px solid rgb(209, 208, 208);
+        border-radius: 10px;
+        padding: 35px 30px;
+
+        .about-black_edition_title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-size: 13px;
+                color: color.$cyan;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            p:hover {
+                color: color.$dark-cyan;
+            }
+        }
+
+        p {
+            margin-top: 10px;
+            color: color.$gray;
+        }
+
+        .about-black_edition_btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-size: 30px;
+                font-weight: 700;
+                color: black;
+            }
+
+            button {
+                cursor: pointer;
+                width: 150px;
+                height: 50px;
+                background-color: color.$cyan;
+                border-radius: 30px;
+                border: none;
+                transition: 0.3s;
+                color: white;
+                font-weight: 700;
+                font-size: 15px;
+            }
+
+            button:hover {
+                background-color: color.$dark-cyan;
+            }
+        }
+    }
+
+
+
+    .about-mahogany {
+        margin-top: 40px;
+        width: 600px;
+        height: 260px;
+        border: 1px solid rgb(244, 243, 243);
+        border-radius: 10px;
+        padding: 35px 30px;
+
+        .about-mahogany_title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            h4 {
+                color: rgba(0, 0, 0, 0.396);
+            }
+
+            p {
+                font-size: 13px;
+                color: hsla(176, 50%, 47%, 0.537);
+                cursor: pointer;
+                transition: 0.3s;
+            }
+        }
+
+        p {
+            margin-top: 10px;
+            color: rgba(128, 128, 128, 0.41);
+        }
+
+        .about-mahogany_btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-size: 30px;
+                font-weight: 700;
+                color: rgba(0, 0, 0, 0.396);
+            }
+
+            p {
+                color: rgba(128, 128, 128, 0.41);
+            }
+
+            button {
+                cursor: pointer;
+                width: 150px;
+                height: 50px;
+                background-color:rgba(128, 128, 128, 0.41);
+                border-radius: 30px;
+                border: none;
+                transition: 0.3s;
+                color: white;
+                font-weight: 700;
+                font-size: 15px;
+            }
         }
     }
 }
