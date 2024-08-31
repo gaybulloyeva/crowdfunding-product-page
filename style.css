@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Commissioner", sans-serif;
+  background-color: whitesmoke;
+}
+
+.header {
+  width: 100%;
+  height: 400px;
+  background-image: url("./images/image-hero-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .intro-page_container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header .intro-page_container .nav {
+  padding: 40px 50px 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .intro-page_container .nav .menu {
+  margin-top: 25px;
+  width: 300px;
+  justify-content: space-around;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  flex-direction: row;
+  list-style: none;
+}
+.header .intro-page_container .nav .menu li {
+  cursor: pointer;
+  transition: 0.2s;
+  transition-timing-function: linear;
+}
+.header .intro-page_container .nav li:hover {
+  color: hsl(176, 50%, 47%);
+  border-bottom-style: inset;
+  border-bottom-color: hsl(176, 50%, 47%);
+  border-bottom-width: 2px;
+}
+
+@media only screen and (max-width: 575px) {
+  .header .intro-page_container .nav {
+    padding: 40px 10px 0 20px;
+  }
+}
+@media only screen and (max-width: 485px) {
+  .header .intro-page_container .nav li {
+    display: none;
+  }
+}
+.card1 {
+  margin: 230px auto;
+  width: 700px;
+  height: 280px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.card1 .mastercraft {
+  position: relative;
+  bottom: 30px;
+}
+.card1 h1 {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: hsl(0, 0%, 0%);
+}
+.card1 p {
+  color: hsl(0, 0%, 48%);
+  margin-top: 10px;
+}
+.card1 .card1-btn {
+  cursor: pointer;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.card1 .card1-btn .back {
+  width: 200px;
+  height: 60px;
+  background-color: hsl(176, 50%, 47%);
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.card1 .card1-btn .back:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+.card1 .card1-btn .saved {
+  align-items: center;
+  padding-right: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  transition: 0.3s;
+  border: none;
+  font-weight: 500;
+  color: hsl(176, 50%, 47%);
+  background-color: rgb(250, 248, 248);
+}
+.card1 .card1-btn .saved .bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.card1 .card1-btn .saved .bookmark .icon {
+  width: 30px;
+  height: 32px;
+}
+.card1 .card1-btn .saved .bookmark:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+.card1 .card1-btn .saved:hover {
+  color: hsl(176, 72%, 28%);
+}
+
+/*# sourceMappingURL=style.css.map */
